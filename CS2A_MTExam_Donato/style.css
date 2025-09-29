@@ -1,0 +1,144 @@
+
+body {
+
+    background: linear-gradient(rgb(20, 148, 99), rgb(38, 82, 204));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Layout container */
+.container {
+ width: 90%;
+ margin: 0 auto;
+ overflow: hidden; /* clears floats in header */
+}
+
+header nav {
+  background: #16a7ac;
+  color: rgb(15, 9, 9);
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+nav a {
+  color: rgb(17, 13, 13);
+  text-decoration: none;
+}
+
+.hero {
+  background: url('assets/background.jpg') no-repeat center center/cover;
+  color: rgb(5, 5, 5);
+  padding: 3em;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  padding: 1em;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+  padding: 1em;
+}
+
+.card {
+  border: 1px solid #0e8a4c;
+  padding: 1em;
+  background: #fff;
+  text-align: center;
+}
+
+footer {
+  background: #09387e;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+form input, form textarea {
+  padding: 0.5em;
+  border: 1px solid #114733;
+  border-radius: 4px;
+}
+
+button {
+  background: #163396;
+  color: white;
+  padding: 0.5em;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* Contact form styling */
+.contact form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.contact form input,
+.contact form textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  margin-top: 5px;
+}
+
+.contact form button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #0c515e;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact form button:hover {
+  background: #08a022;
+}
+
+/* Aside (profile info) */
+.contact aside {
+  flex: 0.6;
+  text-align: center;
+}
+
+.contact aside img {
+  width: 150px;
+  height: auto;
+  border-radius: 16px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+  object-fit: cover;
+}
