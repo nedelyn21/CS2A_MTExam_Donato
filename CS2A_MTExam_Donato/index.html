@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ilocos Sur Tourism & Products</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h1>Ilocos Sur</h1>
+      <ul>
+        <li><a href="index.html">Home[Ilocos Sur]</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Discover the Beauty of Ilocos Sur</h2>
+    <p>Tourist Spots and Local Products of Ilocos Sur</p>
+  </section>
+
+  <!-- Section 1: Tourist Spots -->
+  <section>
+    <h2>Top Tourist Spots & Adventures</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="assets/tourist1.jpg" width="300px" alt="Sulvec Beach">
+        <h3>Sulvec Beach</h3>
+        <p> - Sulvec Beach is known for its serene shoreline and clear waters, perfect for relaxation.
+The place is surrounded by natural rock formations that make it a unique seaside attraction.
+It is a popular spot for swimming, fishing, and enjoying sunsets.   </p>
+        <p>#SulvecBeach #IlocosSur #BeachVibes #NatureEscape #SunsetViews</p>
+      </div>
+      <div class="card">
+        <img src="assets/tourist2.jpg" width="300px" alt="Calle Crisologo">
+        <h3>Calle Crisologo</h3>
+        <p> - Calle Crisologo is a famous heritage street in Vigan lined with Spanish-era houses.
+Its cobblestone roads and antique structures showcase the rich history of the Ilocos region.
+Tourists enjoy walking here, riding calesas, and buying souvenirs.  </p>
+        <p>#CalleCrisologo #ViganHeritage #SpanishEra #CulturalTour #HistoricVigan
+</p>
+      </div>
+      <div class="card">
+        <img src="assets/tourist3.jpg" width="300px" alt="Aw-Asen Falls">
+        <h3>Aw-Asen Falls</h3>
+        <p>- Aw-Asen Falls is a hidden gem in Ilocos Sur surrounded by lush greenery.
+The waterfall offers a refreshing escape for nature lovers and adventure seekers.
+It is a great place for swimming, picnics, and enjoying the cool mountain breeze.</p>
+        <p>#AwAsenFalls #NatureLovers #IlocosSurAdventures #WaterfallEscape #EcoTourism</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Local Products -->
+  <section>
+    <h2>Famous Local Products</h2>
+    <div class="grid-4">
+      <div class="card">
+        <img src="assets/product1.jpg" width="200px" alt="Cacao chocolate ">
+        <h3>Cacao chocolate </h3>
+        <p>₱250 / 12pc</p>
+        <p>Cacao chocolate is made from locally grown cacao beans in Ilocos.
+It is rich, earthy, and often turned into tablea for hot drinks.
+This product supports local farmers and traditions.</p>
+        <button onclick="addToCart('Cacao chocolate ')">Add to Cart</button>
+        <button onclick="remove('Cacao chocolate ')">Remove</button>
+      </div>
+      <div class="card">
+        <img src="assets/product2.jpg" width="200px" alt="Rambutan">
+        <h3>Rambutan</h3>
+        <p>₱</p>
+        <p>Rambutan is a tropical fruit with a hairy red shell and sweet flesh.
+It is usually eaten fresh but can also be used in desserts.
+This fruit is loved during harvest season for its refreshing taste.</p>
+        <button onclick="addToCart('Rambutan')">Add to Cart</button>
+        <button onclick="remove('Rambutan')">Remove</button>
+      </div>
+      <div class="card">
+        <img src="assets/product3.jpg" width="200px" alt="Vigan Longganisa">
+        <h3>Vigan Longganisa</h3>
+        <p>₱1</p>
+        <p>Vigan Longganisa is a garlicky and sour native sausage.
+It is often paired with rice and sukang Iloko.
+This delicacy is a famous pasalubong from Vigan. is a garlicky and sour native sausage.
+It is often paired with rice and sukang Iloko.
+This delicacy is a famous pasalubong from Vigan.</p>
+        <button onclick="addToCart('Vigan Longganisa')">Add to Cart</button>
+        <button onclick="remove('Vigan Longganisa')">Remove</button>
+      </div>
+      <div class="card">
+        <img src="assets/product4.jpg" width="200px" alt="Chicapop">
+        <h3>Chicapop </h3>
+        <p>₱50 / pack</p>
+        <p>Chicapop is a crispy snack made from popped chichacorn.
+It comes in different flavors like cheese, garlic, and barbecue.
+Tourists enjoy it as a fun and crunchy treat.</p>
+        <button onclick="addToCart('Chicapop')">Add to Cart</button>
+        <button onclick="remove('Chicapop')">Remove</button>
+      </div>
+      <div class="card">
+        <img src="assets/product5.jpg" width="200px" alt="Royal Bibingka">
+        <h3>Royal Bibingka</h3>
+        <p>₱200</p>
+        <p>Royal Bibingka is a sticky rice cake topped with cheese.
+It is denser and chewier than the regular bibingka.
+This sweet treat is common during holidays.</p>
+        <button onclick="addToCart('Royal Bibingka')">Add to Cart</button>
+        <button onclick="remove('Royal Bibingka')">Remove</button>
+      </div>
+      <div class="card">
+        <img src="assets/product6.jpg" width="200px" alt="Sukang Iloko">
+        <h3>Sukang Iloko</h3>
+        <p>₱300 / kilo</p>
+        <p>Sukang Iloko is vinegar made from fermented sugarcane.
+It is widely used in Ilocano cooking and dipping sauces.
+Its strong sour taste pairs well with fried dishes.</p>
+        <button onclick="addToCart('Sukang Iloko')">Add to Cart</button>
+        <button onclick="remove('Sukang Iloko')">Remove</button>
+      </div>
+      <div class="card">
+        <img src="assets/product7.jpg" width="200px" alt="Bagnet">
+        <h3>Bagnet</h3>
+        <p>₱70</p>
+        <p>Bagnet is a deep-fried pork belly with crispy skin.
+It is crunchy outside but tender and juicy inside.
+This dish is a pride of Ilocos cuisine.</p>
+        <button onclick="addToCart('Bagnet')">Add to Cart</button>
+        <button onclick="remove('Bagnet')">Remove</button>
+      </div>
+      <div class="card">
+        <img src="assets/product8.jpg" width="200px" alt="Ilocano bagoong">
+        <h3>Ilocano bagoong</h3>
+        <p>₱150 </p>
+        <p>Ilocano bagoong is a fermented fish paste.
+It adds flavor to dishes like pinakbet and dinengdeng.
+It is a common condiment and pasalubong.</p>
+        <button onclick="addToCart('Ilocano bagoong')">Add to Cart</button>
+        <button onclick="remove('Ilocano bagoong')">Remove</button>
+      </div>
+      <div class="card">
+        <img src="assets/product9.jpg" width="200px" alt="Daing ">
+        <h3>Daing </h3>
+        <p>₱150</p>
+        <p>Daing is salted and sun-dried fish from coastal towns.
+It is usually fried and eaten with rice.
+This product shows the Ilocanos’ way of preserving food.</p>
+        <button onclick="addToCart('Daing ')">Add to Cart</button>
+        <button onclick="remove('Daing ')">Remove</button>
+      </div>
+      <div class="card">
+        <img src="assets/product10.jpg" width="200px" alt="Ilocos Empanada">
+        <h3>Ilocos Empanada</h3>
+        <p>₱100 / kilo</p>
+        <p>Ilocos Empanada is a fried pastry with longganisa, egg, and vegetables.
+It has a crispy crust and is eaten with sukang Iloko.
+This is one of the most iconic street foods in Ilocos.</p>
+        <button onclick="addToCart('Ilocos Empanada')">Add to Cart</button>
+        <button onclick="remove('Ilocos Empanada')">Remove</button>
+      </div>
+      <div class="card">
+        <img src="assets/product11.jpg" width="200px" alt="Bugnay Wine">
+        <h3>Bugnay Wine</h3>
+        <p>₱120</p>
+        <p>Bugnay Wine is made from wild bugnay berries.
+It has a sweet, fruity taste and is often shared at gatherings.
+This drink reflects Ilocos’ traditional winemaking.</p>        
+        <button onclick="addToCart('Bugnay Wine')">Add to Cart</button>
+        <button onclick="remove('Bugnay Wine')">Remove</button>
+      </div>
+      <div class="card">
+        <img src="assets/product12.jpg" width="200px" alt="Banana">
+        <h3>Banana</h3>
+        <p>₱100 / pack</p>
+        <p>Bananas are widely grown in Ilocos.
+They are eaten fresh or cooked into snacks like turon and banana cue.
+This fruit is affordable and loved by locals.</p>
+        <button onclick="addToCart('Banana')">Add to Cart</button>
+        <button onclick="remove('Banana')">Remove</button>
+      </div>
+    </div>
+  </section>
+
+   <header>
+  <section class="hero">
+    <h2>Contact Us</h2>
+  </section>
+
+  <section class="contact">
+<section id="contact">
+   <form>
+    <label>Name
+     <input type="text" name="name" required />
+    </label>
+
+    <label>Email
+     <input type="email" name="name" required />
+    </label>
+
+    <label>Message
+     <textarea name="message" rows="4" required></textarea>
+    </label>
+
+    <button type="submit">Send</button>
+   </form>
+    <aside>
+      <img src="assets/my profile.jpg"  width="100px"  alt="my profile">
+      <p><strong>NEDELYN F. DONATO</strong></p>
+      <p>Email: nedelyndonato@gmail.com</p>
+      <p>Phone: +63 946 755 1476</p>
+    </aside>
+  </section>
+
+  <section class="map">
+    <h3>Visit Us</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975251.6560939428!2d119.91862464154256!3d17.28769837693022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x338e3e395bcef0b5%3A0xf338d7611b98ada3!2sIlocos%20Sur!5e0!3m2!1sen!2sph!4v1758989241596!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+<footer>
+    <p>© 2025 Ilocos Sur Tourism | All Rights Reserved</p>
+  </footer>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>
